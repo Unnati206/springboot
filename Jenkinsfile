@@ -7,7 +7,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/Unnati206/Springboot16.git'
+                url: 'https://github.com/Unnati206/springboot.git'
             }
         }
 
